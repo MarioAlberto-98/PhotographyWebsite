@@ -1,0 +1,202 @@
+
+@font-face {
+    font-family: helve1;
+    font-style: bold;
+    src: url('../fonts/HelveticaBold.otf');
+}
+@font-face {
+    font-family: helve2;
+    font-style: light;
+    src: url('../fonts/HelveticaLight.otf');
+}
+@font-face {
+    font-family: helve3;
+    font-style: roman;
+    src: url('../fonts/HelveticaRoman.otf');
+}
+@font-face {
+    font-family: helve4;
+    font-style: fractions;
+    src: url('../fonts/HelveticaFractions.otf');
+}
+@font-face {
+    font-family: helve5;
+    font-style: obl;
+    src: url('../fonts/HelveticaObl.otf');
+}
+@font-face{
+	font-family: helve6;
+	font-style: boldh;
+	src: url('../fonts/HelveticaNeueLTStd-Bd.otf');
+}
+.present-back{
+	background: rgb(248, 248, 248);
+	color: rgb(49, 49, 47);
+	padding: 150px 80px 70px 80px;
+}
+
+.present-content{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;	
+}
+.present-div{
+	width: 80%;
+}
+.title-text{
+	padding: 30px 0px;
+	font-size: 60px;
+	font-family: helve1;
+    font-style: bold;
+}
+ .sone{
+	font-size: 70px;
+	
+	background: rgb(17, 17, 17);
+	padding: 10px 10px 10px 10px;
+	color: rgb(240, 240, 240);
+	font-family: helve6;
+	font-style: boldh;
+}
+
+.para-text{
+	font-size: 20px;
+	font-family: 'Roboto Mono', monospace;
+}
+
+.present-div-square{
+	margin-top: 50px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 20%;
+	justify-content: right;
+	
+}
+
+
+
+
+/*Footer*/
+
+.footer{
+	background: rgb(24, 24, 24);
+	padding: 120px 110px;
+}
+.navbar-brand{
+	color: rgb(230, 227, 210);
+	text-decoration: none;
+	font-family: 'Source Code Pro', monospace;
+	font-size: 30px;
+}
+.navbar-brand:hover{
+	color: rgb(170, 168, 159);
+}
+
+
+
+
+
+/* Contenido de fotos*/
+.sec-photography{
+	background: rgb(248, 248, 248);
+	
+}
+
+
+.photo-div{
+	padding: 70px 80px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+
+
+.photo-container{
+	margin-top: 40px;
+	width: 30%;
+	
+}
+
+
+
+
+.para-imagen-s{
+	margin-top: 20px;
+	font-family: helve3;
+    
+	font-size: 16px;
+	color: rgb(78, 78, 78);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:700px) {
+	
+	.present-back{
+	
+		padding: 100px 50px;
+	}
+	.present-div{
+		width: 100%;
+	}
+	
+	.title-text{
+		padding: 30px 0px;
+		font-size: 50px;
+		
+	}
+	 .sone{
+		font-size: 50px;
+		
+		
+	}
+	
+	.para-text{
+		font-size: 20px;
+		font-family: 'Roboto Mono', monospace;
+	}
+	
+.present-div-square{
+	margin-top: 40px;
+	width: 50%;
+	
+}
+.photo-container{
+	margin-top: 40px;
+	width: 100%;
+	
+}
+
+.photo-div{
+	padding: 60px 50px;
+	
+}
+.footer{
+	background: rgb(24, 24, 24);
+	padding: 70px 50px;
+}
+.navbar-brand{
+	color: rgb(230, 227, 210);
+	text-decoration: none;
+	font-family: 'Source Code Pro', monospace;
+	font-size: 20px;
+}
+
+
+}
